@@ -1,13 +1,13 @@
-import { useState } from 'react'
-import './App.css'
+import Footer from './Components/Footer'
+import { Index as HomeIndex} from './Views/HomePage'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <h1 className="text-3xl font-bold underline text-cyan-400">
-      Hello world!
-    </h1>
+    <>
+      <HomeIndex />
+      <Footer />
+    </>
   )
 }
 
